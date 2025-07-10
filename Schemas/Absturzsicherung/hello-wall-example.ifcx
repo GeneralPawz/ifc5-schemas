@@ -1,11 +1,13 @@
 {
   "header": {
-      "version": "0.1",
+    "id": "Absturzsicherung.hello-wall-example.ifcx",
+      "version": "0.2",
       "author": "General Pawz",
       "timestamp": "2025-07-10"
   },
-  "imports": [],
-  "schemas": {
+  "imports": [
+  ],
+"schemas": {
     "bsi::ifc-safe::prop::Anzahl": {
       "value": {
         "dataType": "Real",
@@ -110,5 +112,28 @@
       }
     }
   },
-  "data": []
+  "data": [
+    {
+      "path": "93791d5d-5beb-437b-b8ec-2f1f0ba4bf3b",
+      "attributes": {
+        "bsi::ifc-safe::prop::Anzahl": 3,
+        "bsi::ifc-safe::prop::Breite": 120.0,
+        "bsi::ifc-safe::prop::Dachaufbau": "Flachdach",
+        "bsi::ifc-safe::prop::DurchhangBeiSturz": 20.0,
+        "bsi::ifc-safe::prop::DynamischeBelastbarkeit": "Norm",
+        "bsi::ifc-safe::prop::Fassadentyp": "Pfosten-Riegel",
+        "bsi::ifc-safe::prop::Hoehe": 110.0,
+        "bsi::ifc-safe::prop::Innengelaender": true,
+        "bsi::ifc-safe::prop::Klasse": "C",
+        "bsi::ifc-safe::prop::KlasseSeitenschutz": "B",
+        "bsi::ifc-safe::prop::Laenge": 240.0,
+        "bsi::ifc-safe::prop::Netzverkleidungen": false,
+        "bsi::ifc-safe::prop::Preis": 1450.00,
+        "bsi::ifc-safe::prop::System": "SicherFix 3000",
+        "bsi::ifc-safe::prop::Typ": "Drahtseilsystem mit Durchlauf",
+        "bsi::ifc-safe::prop::Verankerungssystem": "Beton-Dübel M12",
+        "bsi::ifc-safe::prop::VorgespanntesDrahtseil": true
+      }
+    }
+  ]
 }
