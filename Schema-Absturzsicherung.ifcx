@@ -1,0 +1,89 @@
+{
+  "header": {
+      "version": "ifcx_alpha",
+      "author": "authorname",
+      "timestamp": "time string"
+  },
+  "imports": [],
+  "schemas": {
+    "bsi::ucm::prop::Absturzsicherung": {
+      "value": {
+        "dataType": "Object",
+        "objectRestrictions": {
+          "values": {
+            "Anzahl": {
+              "dataType": "Real",
+              "quantityKind": "Count"
+            },
+            "Breite": {
+              "dataType": "Real",
+              "quantityKind": "Length"
+            },
+            "Dachaufbau": {
+              "dataType": "Enum",
+              "enumRestrictions": {
+                "options": ["Flachdach", "Steildach", "Gründach", "unbekannt"]
+              }
+            },
+            "Durchhang bei Sturz": {
+              "dataType": "Real",
+              "quantityKind": "Length"
+            },
+            "Dynamische Belastbarkeit": {
+              "dataType": "Text"
+            },
+            "Fassadentyp": {
+              "dataType": "Enum",
+              "enumRestrictions": {
+                "options": ["Vorhangfassade", "massive Fassade", "Pfosten-Riegel", "unbekannt"]
+              }
+            },
+            "Höhe": {
+              "dataType": "Real",
+              "quantityKind": "Length"
+            },
+            "Innengeländer": {
+              "dataType": "Boolean"
+            },
+            "Klasse": {
+              "dataType": "Enum",
+              "enumRestrictions": {
+                "options": ["A", "B", "C", "unbekannt"]
+              }
+            },
+            "Klasse Seitenschutz": {
+              "dataType": "Enum",
+              "enumRestrictions": {
+                "options": ["A", "B", "C", "unbekannt"]
+              }
+            },
+            "Länge": {
+              "dataType": "Real",
+              "quantityKind": "Length"
+            },
+            "Netzverkleidungen": {
+              "dataType": "Boolean"
+            },
+            "Preis": {
+              "dataType": "Real",
+              "quantityKind": "MonetaryCost"
+            },
+            "System": {
+              "dataType": "Text"
+            },
+            "Typ": {
+              "dataType": "Text"
+            },
+            "Verankerungssystem": {
+              "dataType": "Text"
+            },
+            "Vorgespanntes Drahtseil": {
+              "dataType": "Boolean"
+            }
+          }
+        }
+      }
+    }
+  },
+  "data": []
+}
